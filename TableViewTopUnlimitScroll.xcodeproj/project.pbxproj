@@ -13,6 +13,7 @@
 		D30B97281EE9505E009876FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D30B97261EE9505E009876FA /* Main.storyboard */; };
 		D30B972A1EE9505E009876FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D30B97291EE9505E009876FA /* Assets.xcassets */; };
 		D30B972D1EE9505E009876FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D30B972B1EE9505E009876FA /* LaunchScreen.storyboard */; };
+		D30B97361EE950DE009876FA /* CustomTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D30B97341EE950DE009876FA /* CustomTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		D30B97291EE9505E009876FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D30B972C1EE9505E009876FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D30B972E1EE9505E009876FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D30B97341EE950DE009876FA /* CustomTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableView.m; sourceTree = "<group>"; };
+		D30B97351EE950DE009876FA /* CustomTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		D30B971C1EE9505E009876FA /* TableViewTopUnlimitScroll */ = {
 			isa = PBXGroup;
 			children = (
+				D30B97341EE950DE009876FA /* CustomTableView.m */,
+				D30B97351EE950DE009876FA /* CustomTableView.h */,
 				D30B97201EE9505E009876FA /* AppDelegate.h */,
 				D30B97211EE9505E009876FA /* AppDelegate.m */,
 				D30B97231EE9505E009876FA /* ViewController.h */,
@@ -153,6 +158,7 @@
 			files = (
 				D30B97251EE9505E009876FA /* ViewController.m in Sources */,
 				D30B97221EE9505E009876FA /* AppDelegate.m in Sources */,
+				D30B97361EE950DE009876FA /* CustomTableView.m in Sources */,
 				D30B971F1EE9505E009876FA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +279,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W222R58V26;
 				INFOPLIST_FILE = TableViewTopUnlimitScroll/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lx.TableViewTopUnlimitScroll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -285,6 +292,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W222R58V26;
 				INFOPLIST_FILE = TableViewTopUnlimitScroll/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lx.TableViewTopUnlimitScroll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
